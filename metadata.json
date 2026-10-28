@@ -1,0 +1,6 @@
+{
+  "name": "Project Citrus - TV-01 Local Processing",
+  "description": "Technical feasibility prototype for browser-local file processing and SHA-256 computation in Project Citrus.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
