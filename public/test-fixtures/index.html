@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Project Citrus — TV-03 Test Fixtures</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0f172a; color: #f8fafc; padding: 2rem; max-width: 900px; margin: 0 auto; }
+    h1 { color: #38bdf8; }
+    .card { background: #1e293b; border-radius: 8px; padding: 1.5rem; margin-bottom: 1.5rem; border: 1px solid #334155; }
+    a.btn { display: inline-block; background: #0284c7; color: white; padding: 0.5rem 1rem; border-radius: 6px; text-decoration: none; font-weight: 600; margin-top: 0.5rem; margin-right: 0.5rem; }
+    a.btn:hover { background: #0369a1; }
+    img { max-width: 100%; border-radius: 6px; border: 1px solid #475569; margin-top: 1rem; }
+    code { background: #0f172a; padding: 0.2rem 0.4rem; border-radius: 4px; color: #38bdf8; }
+  </style>
+</head>
+<body>
+  <h1>Project Citrus — TV-03 Test Fixtures Directory</h1>
+  <p>Isolated directory for TV-03 validation fixtures (EXIF, GPS, Orientation, Display P3 / ICC).</p>
+
+  <div class="card">
+    <h2>1. Display P3 Color Management Fixture (PNG)</h2>
+    <p>File: <code>citrus_display_p3_test.png</code> (600x400 px, 36.7 KB, 8-bit Truecolor RGB with embedded Display P3 ICC profile in iCCP chunk)</p>
+    <a class="btn" href="citrus_display_p3_test.png" download>Download citrus_display_p3_test.png</a>
+    <a class="btn" href="citrus_display_p3_test.png" target="_blank">View PNG in New Tab</a>
+    <br>
+    <img src="citrus_display_p3_test.png" alt="Display P3 Test PNG">
+  </div>
+
+  <div class="card">
+    <h2>2. Display P3 ICC Profile</h2>
+    <p>File: <code>DisplayP3.icc</code> (536 bytes, ICC v4.0.0 Display Profile from Apple / Color.org Registry)</p>
+    <a class="btn" href="DisplayP3.icc" download>Download DisplayP3.icc</a>
+  </div>
+
+  <div class="card">
+    <h2>3. JPEG EXIF / GPS Metadata Fixture</h2>
+    <p>File: <code>citrus_exif_gps_metadata_test.jpg</code> (600x400 px, 31.3 KB, embedded APP1 EXIF with Make, Model, DateTimeOriginal, GPS)</p>
+    <a class="btn" href="citrus_exif_gps_metadata_test.jpg" download>Download citrus_exif_gps_metadata_test.jpg</a>
+  </div>
+
+  <div class="card">
+    <h2>4. Orientation Test Fixtures</h2>
+    <ul>
+      <li><a class="btn" href="citrus_exif_orientation_1.jpg" download>Orientation 1</a></li>
+      <li><a class="btn" href="citrus_exif_orientation_3.jpg" download>Orientation 3</a></li>
+      <li><a class="btn" href="citrus_exif_orientation_6.jpg" download>Orientation 6</a></li>
+      <li><a class="btn" href="citrus_exif_orientation_8.jpg" download>Orientation 8</a></li>
+      <li><a class="btn" href="citrus_reference_upright.png" download>Reference Upright PNG</a></li>
+    </ul>
+  </div>
+</body>
+</html>
